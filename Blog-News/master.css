@@ -1,0 +1,27 @@
+body{
+  max-width: 700px;
+  width: 70%;
+  margin: 20px auto;
+  border: 20px solid gray;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px 30px;
+}
+
+.date{
+color: #00299f;
+text-transform: uppercase;
+font-weight: 800;
+font-size: .85em;
+padding-top: 10px;
+letter-spacing: 0.2rem;
+}
+
+.article-quote{
+  border-left: 5px solid gray;
+  padding: 8px;
+}
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
