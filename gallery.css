@@ -1,0 +1,29 @@
+.jumbotron {
+  background-color: #001f37;
+  color: #05caed;
+}
+
+.navbar, .collapse, .navbar-collapse{
+  background-color: #001f37;
+  color: red;
+}
+
+a{
+  color: #05caed;
+}
+
+a:hover{
+  color: #fc11e1;
+}
+
+.img-thumbnail{
+  border: 1px solid #001f38;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.fa-bars{
+  color:#05caed;
+}
