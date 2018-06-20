@@ -1,0 +1,43 @@
+body{
+  background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar{
+  background: #d8cccc;
+}
+
+.fa{
+  font-size: 14px;
+}
+
+a{
+  font-weight:500;
+  color:gray;
+}
+
+a:hover{
+  color:#e4e4e4;
+  background: #a7a3a3;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.display-3{
+  font-weight: 600;
+  font-size: 4em;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  text-align: center;
+}
+
+.lead{
+  font-weight: 600;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 3px black;
+  color: white;
+  text-align: center;
+}
