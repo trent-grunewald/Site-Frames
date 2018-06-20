@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Things I've Learned</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <a href="#" class="navbar-brand"><i class="fas fa-image"></i> iMG</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span <span class="navbar-toggler-icon pt-1">
+      <i class="fas fa-bars"></i>
+    </span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav mt-2 mt-lg-0 ">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign Up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="jumbotron mt-5">
+    <h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+    <p>A bunch of beautiful images that I didn't take in 2077</p>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://i.redd.it/qooxzvyl5k6z.jpg" class="img-thumbnail my-3"alt="">
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/photo-1526942617995-8c629e716da7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19cc6fabc67e0896614a0475e1746118" class="img-thumbnail my-3"alt="">
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/Ys-DBJeX0nE.JPG?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b41bd48dc97da6dafe203676b2594c0" class="img-thumbnail my-3"alt="">
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/photo-1501769752-a59efa2298ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5113802ae15a82c47fad708e9d0c9e21" class="img-thumbnail my-3"alt="">
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e66417e4837b0d3af7a5c63425f8cece" class="img-thumbnail my-3"alt="">
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/photo-1502754388-a9bce5374fb8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b837ca9bcd596e98ee6cca951078f47e" class="img-thumbnail my-3"alt="">
+    </div>
+
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/photo-1502716643504-c4ea7b357d91?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b6fd394051419af22b4d1d8319b0bb36" class="img-thumbnail my-3"alt="">
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/photo-1508485385725-b2d2f094b773?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=91b810ed9dfce660c80ff7b0e4b2d173" class="img-thumbnail my-3"alt="">
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <img src="https://images.unsplash.com/photo-1509817445409-e2057fd6feac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cc81b548e815e2eea4c572b2a097f95d" class="img-thumbnail my-3"alt="">
+    </div>
+  </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</script>
+</html>
