@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background: url(https://images.wallpaperscraft.com/image/outer_space_galaxy_constellation_119797_3840x2160.jpg) no-repeat center center fixed;
+  background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-19059.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,76 +12,60 @@ body{
 }
 
 .navbar{
-  background: #eaeaea;
-  border-bottom: 4px solid transparent;
-  border-image: linear-gradient(to right, #0f051d, #9650b0);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #f2f1ef00, #f2f1ef00, #f2f1ef00, #212529);
   border-image-slice: 1;
 }
 
-
-.fa{
-  font-size: 14px;
-}
-
-.fa-bars{
-  color: #7b7b7b;
+@media only screen and (max-width: 991px) {
+    .navbar {
+        border-bottom:none;
+    }
 }
 
 a{
-  font-weight:700;
-  color: #130421;
-  padding-left: 5px;
+  font-size: 1.5em;
+  font-weight:600;
+  color: #282632;
+  margin-left: 60px;
 }
 
 a:hover{
-  color:#eaeaea;
-  background: #130421;
-  background-size: cover;
-  border-radius: 3px;
+  color:#ebeaef;
+  text-shadow: 3px 3px 3px #565364;
 }
 
 
 #content{
-  position: absolute;
-  right: 15%;
-  top: -140px;
+  text-align: center;
   margin-left: auto;
-  padding-top: 25%;
+  padding-top: 45%;
 }
 
 .display-3{
   font-weight: 600;
   font-size: 4em;
-  text-shadow: 3px 3px 6px black;
-  color: white;
+  text-shadow: 0px 0px 2px black;
+  color: #cdccd1;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.display-4{
+.lead{
   font-weight: 600;
-  font-size: 2em;
-  text-shadow: 3px 3px 3px black;
-  color: white;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 6px #82808d;
+  color: #25242b;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 hr{
-  border-top: 5px solid white;
   width: 45%;
-  border-radius:5px;
-}
-
-.intro{
-  height: 100%;
-  width: 100%;
-  background: #0000008c;
-  -webkit-clip-path: polygon(54% 0, 100% 47%, 55% 100%, 0% 100%, 53% 46%, 0% 0%);
-  clip-path: polygon(54% 0, 100% 47%, 55% 100%, 0% 100%, 53% 46%, 0% 0%);
-
-
-
+  border-radius: 35px;
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, #ebeaef, #7b7987, #000000, #7b7987, #ebeaef);
+  border-image-slice: 1;
 }
