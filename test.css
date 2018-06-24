@@ -2,9 +2,14 @@ body{
   color: #171d1d;
 }
 
+<<<<<<< HEAD
 .landing{
   height: 100vh;
   background: url(img/landing.jpg) center center fixed;
+=======
+body{
+  background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-19059.jpg) no-repeat center center fixed;
+>>>>>>> f7491e569e568832489a9d50d0bc941ea7e47585
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,6 +17,7 @@ body{
 }
 
 .navbar{
+<<<<<<< HEAD
   background: linear-gradient(to bottom, #9ab7bf, #9ab7bf9e, #bfc4c800);
   color: #f8f8fa;
 }
@@ -30,10 +36,28 @@ a{
   font-size: 1.25em;
   font-weight:500;
   color: #f8f8fa;
+=======
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #f2f1ef00, #f2f1ef00, #f2f1ef00, #212529);
+  border-image-slice: 1;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        border-bottom:none;
+    }
+}
+
+a{
+  font-size: 1.5em;
+  font-weight:600;
+  color: #282632;
+>>>>>>> f7491e569e568832489a9d50d0bc941ea7e47585
   margin-left: 60px;
 }
 
 a:hover{
+<<<<<<< HEAD
   color: #2a1d24;
   text-shadow: 1px 1px 5px #f8f8fa;
 }
@@ -101,4 +125,43 @@ hr{
     height: 100vh;
     background: #ddeaee;
     border-top: 5px solid #adc8cf;
+=======
+  color:#ebeaef;
+  text-shadow: 3px 3px 3px #565364;
+}
+
+
+#content{
+  text-align: center;
+  margin-left: auto;
+  padding-top: 45%;
+}
+
+.display-3{
+  font-weight: 600;
+  font-size: 4em;
+  text-shadow: 0px 0px 2px black;
+  color: #cdccd1;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.lead{
+  font-weight: 600;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 6px #82808d;
+  color: #25242b;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+hr{
+  width: 45%;
+  border-radius: 35px;
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, #ebeaef, #7b7987, #000000, #7b7987, #ebeaef);
+  border-image-slice: 1;
+>>>>>>> f7491e569e568832489a9d50d0bc941ea7e47585
 }
