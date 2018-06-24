@@ -1,87 +1,104 @@
-html{
-  height: 100%;
+body{
+  color: #171d1d;
 }
 
-body{
-  background: url(https://images.wallpaperscraft.com/image/outer_space_galaxy_constellation_119797_3840x2160.jpg) no-repeat center center fixed;
+.landing{
+  height: 100vh;
+  background: url(img/landing.jpg) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
+  background-position: center;
 }
 
 .navbar{
-  background: #eaeaea;
-  border-bottom: 4px solid transparent;
-  border-image: linear-gradient(to right, #0f051d, #9650b0);
-  border-image-slice: 1;
+  background: linear-gradient(to bottom, #9ab7bf, #9ab7bf9e, #bfc4c800);
+  color: #f8f8fa;
 }
 
+      @media only screen and (max-width: 991px) {
+          .navbar {
+              border-bottom:none;
+          }
 
-.fa{
-  font-size: 14px;
-}
-
-.fa-bars{
-  color: #7b7b7b;
-}
+          .navbar-brand{
+            display: none;
+          }
+      }
 
 a{
-  font-weight:700;
-  color: #130421;
-  padding-left: 5px;
+  font-size: 1.25em;
+  font-weight:500;
+  color: #f8f8fa;
+  margin-left: 60px;
 }
 
 a:hover{
-  color:#eaeaea;
-  background: #130421;
-  background-size: cover;
-  border-radius: 3px;
+  color: #2a1d24;
+  text-shadow: 1px 1px 5px #f8f8fa;
 }
 
-
-#content{
-  position: absolute;
-  right: 15%;
-  top: -140px;
-  margin-left: auto;
-  padding-top: 25%;
-}
-
-.display-3{
-  font-weight: 600;
-  font-size: 4em;
-  text-shadow: 3px 3px 6px black;
-  color: white;
+#landing-content{
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-left: auto;
+  padding-top: 15%;
+}
+
+.text{
+  border: 5px solid #d4dde2;
+  border-radius: 15px;
+  padding: 20px;
+  background: #121b1d63;
 }
 
 .display-4{
-  font-weight: 600;
-  font-size: 2em;
-  text-shadow: 3px 3px 3px black;
-  color: white;
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  color: #eef7fb;
+  font-weight: 500;
+  font-size: 4em;
+  text-shadow: 1px 1px 6px #2f252e;
 }
 
 hr{
-  border-top: 5px solid white;
-  width: 45%;
-  border-radius:5px;
+  width: 75%;
+  border-radius: 35px;
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, #4f697600, #44637100, #d4dde2, #42627100, #375f7000);
+  border-image-slice: 1;
 }
 
-.intro{
-  height: 100%;
-  width: 100%;
-  background: #0000008c;
-  -webkit-clip-path: polygon(54% 0, 100% 47%, 55% 100%, 0% 100%, 53% 46%, 0% 0%);
-  clip-path: polygon(54% 0, 100% 47%, 55% 100%, 0% 100%, 53% 46%, 0% 0%);
+.lead{
+  font-weight: 500;
+  font-size: 2em;
+  text-shadow: 1px 1px 6px #31272f;
+  color: #9ea9af;
+}
 
+#about-content{
+  text-align: center;
+  margin-left: auto;
+  padding-top: 3.5%;
+}
 
+#about{
+  height: 100vh;
+  background: #ddeaee;
+  border-top: 5px solid #adc8cf;
+}
 
+#projects{
+  height: 100vh;
+  text-align: center;
+  margin-left: auto;
+  padding-top: 3.5%;
+  }
+
+.card{
+  padding-bottom: 2%;
+  border: none;
+  }
+
+#contact{
+    height: 100vh;
+    background: #ddeaee;
+    border-top: 5px solid #adc8cf;
 }
