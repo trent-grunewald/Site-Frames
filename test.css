@@ -2,14 +2,9 @@ body{
   color: #171d1d;
 }
 
-<<<<<<< HEAD
 .landing{
   height: 100vh;
   background: url(img/landing.jpg) center center fixed;
-=======
-body{
-  background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-19059.jpg) no-repeat center center fixed;
->>>>>>> f7491e569e568832489a9d50d0bc941ea7e47585
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,151 +12,116 @@ body{
 }
 
 .navbar{
-<<<<<<< HEAD
-  background: linear-gradient(to bottom, #9ab7bf, #9ab7bf9e, #bfc4c800);
-  color: #f8f8fa;
+  background: #f0f0f0;
+  color: #45454c;
+  padding-top: 0;
 }
 
-      @media only screen and (max-width: 991px) {
-          .navbar {
-              border-bottom:none;
-          }
-
-          .navbar-brand{
-            display: none;
-          }
-      }
+.navbar-brand{
+  padding-bottom: 0;
+}
 
 a{
   font-size: 1.25em;
   font-weight:500;
-  color: #f8f8fa;
-=======
-  border-bottom: 2px solid transparent;
-  border-image: linear-gradient(to right, #f2f1ef00, #f2f1ef00, #f2f1ef00, #212529);
-  border-image-slice: 1;
-}
-
-@media only screen and (max-width: 991px) {
-    .navbar {
-        border-bottom:none;
-    }
-}
-
-a{
-  font-size: 1.5em;
-  font-weight:600;
-  color: #282632;
->>>>>>> f7491e569e568832489a9d50d0bc941ea7e47585
+  color: #45454c;
   margin-left: 60px;
 }
 
 a:hover{
-<<<<<<< HEAD
   color: #2a1d24;
-  text-shadow: 1px 1px 5px #f8f8fa;
+  text-shadow: 1px 1px 5px #329da7;
+  text-decoration: underline;
 }
 
 #landing-content{
   text-align: center;
   margin-left: auto;
-  padding-top: 15%;
+  padding-top: 20%;
 }
 
 .text{
-  border: 5px solid #d4dde2;
-  border-radius: 15px;
-  padding: 20px;
-  background: #121b1d63;
+  background: #10242f94;
+  border: 5px solid #f0f0f0;
+  border-radius: 10px;
 }
 
 .display-4{
-  color: #eef7fb;
+  color: #f0f0f0;
   font-weight: 500;
   font-size: 4em;
-  text-shadow: 1px 1px 6px #2f252e;
+  text-shadow: 1px 1px 6px #00070d;
 }
+
+.lead{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 5px #051824;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .display-4{
+        font-size: 2.5em;
+    }
+
+    .lead{
+      font-size: 1em;
+    }
+  }
+
+  @media only screen and (max-width: 581px) {
+
+      .display-4{
+          font-size: 1.5em;
+      }
+      .lead{
+        font-size: .90em;
+      }
+    }
 
 hr{
   width: 75%;
   border-radius: 35px;
   border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, #4f697600, #44637100, #d4dde2, #42627100, #375f7000);
+  border-image: linear-gradient(to right, #4f697600, #1f4e6287, #f0f0f0, #1f4e627a, #375f7000);
   border-image-slice: 1;
-}
-
-.lead{
-  font-weight: 500;
-  font-size: 2em;
-  text-shadow: 1px 1px 6px #31272f;
-  color: #9ea9af;
 }
 
 #about-content{
   text-align: center;
   margin-left: auto;
-  padding-top: 3.5%;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
 }
 
 #about{
-  height: 100vh;
-  background: #ddeaee;
+  background: url(img/about.jpg);
   border-top: 5px solid #adc8cf;
+  height: 100%;
 }
 
 #projects{
-  height: 100vh;
   text-align: center;
   margin-left: auto;
-  padding-top: 3.5%;
+  margin-top: 3.5%;
+  margin-bottom: 1.5%;
   }
 
 .card{
-  padding-bottom: 2%;
+  margin-bottom: 1%;
   border: none;
   }
 
 #contact{
-    height: 100vh;
-    background: #ddeaee;
-    border-top: 5px solid #adc8cf;
-=======
-  color:#ebeaef;
-  text-shadow: 3px 3px 3px #565364;
-}
-
-
-#content{
+  border-top: 5px solid red;
   text-align: center;
   margin-left: auto;
-  padding-top: 45%;
+
 }
 
-.display-3{
-  font-weight: 600;
-  font-size: 4em;
-  text-shadow: 0px 0px 2px black;
-  color: #cdccd1;
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.lead{
-  font-weight: 600;
-  font-size: 1.5em;
-  text-shadow: 1px 1px 6px #82808d;
-  color: #25242b;
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-hr{
-  width: 45%;
-  border-radius: 35px;
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, #ebeaef, #7b7987, #000000, #7b7987, #ebeaef);
-  border-image-slice: 1;
->>>>>>> f7491e569e568832489a9d50d0bc941ea7e47585
+.contact-content{
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
 }
