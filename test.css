@@ -1,4 +1,3 @@
-
 body{
   background-color: #f0f0f0;
   background: url(img/landing.jpg) center center fixed;
@@ -74,36 +73,6 @@ a:hover{
   text-shadow: 1px 1px 5px #051824;
 }
 
-@media only screen and (max-width: 991px) {
-
-    .display-4{
-        font-size: 2.5em;
-    }
-
-    .lead{
-      font-size: 1em;
-    }
-
-    .contact-link a{
-      font-size: 1em;
-    }
-  }
-
-  @media only screen and (max-width: 581px) {
-
-      .display-4{
-          font-size: 1.5em;
-      }
-
-      .lead{
-        font-size: .90em;
-      }
-
-      .contact-link a{
-        font-size: .90em;
-      }
-    }
-
 hr{
   width: 75%;
   border-radius: 35px;
@@ -113,7 +82,6 @@ hr{
 }
 
 #about-content{
-  text-align: center;
   margin-left: auto;
   margin-bottom: 3.5%;
 }
@@ -127,6 +95,16 @@ hr{
   padding-top: 20vh;
 }
 
+.about-head{
+  color: #4c7f95;
+}
+
+.about-text{
+  color: #033148;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 #projects{
   text-align: center;
   margin-left: auto;
@@ -134,15 +112,13 @@ hr{
   margin-bottom: 1.5%;
   }
 
-.card{
-  margin-bottom: 1%;
-  border: none;
-  }
-
 #contact{
-  border-top: 5px solid red;
+  border-top: 5px solid transparent;
+  border-image: linear-gradient(to right, #4f697600, #1f4e6287, #f0f0f0, #1f4e627a, #375f7000);
+  border-image-slice: 1;
   text-align: center;
   margin-left: auto;
+  background-color: #f0f0f0;
 
 }
 
@@ -150,3 +126,41 @@ hr{
   margin-top: 3.5%;
   margin-bottom: 3.5%;
 }
+
+@media only screen and (max-width: 991px) {
+
+    .display-4{
+        font-size: 2.5rem;
+    }
+
+    .lead{
+      font-size: 1rem;
+    }
+
+    .contact-link a{
+      font-size: 1rem;
+    }
+
+    .about-text{
+      font-size: .80rem;
+    }
+  }
+
+  @media only screen and (max-width: 581px) {
+
+      .display-4{
+          font-size: 1.5rem;
+      }
+
+      .lead{
+        font-size: .90rem;
+      }
+
+      .contact-link a{
+        font-size: .90rem;
+      }
+
+      .about-text{
+        font-size: .70rem;
+      }
+    }
