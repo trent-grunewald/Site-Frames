@@ -1,5 +1,5 @@
 body{
-  background-color: #f0f0f0;
+  background-color: #19495d;
   background: url(img/landing.jpg) center center fixed;
 }
 
@@ -23,6 +23,10 @@ body{
 
 .navbar-brand{
   padding-bottom: 0;
+}
+
+.name{
+  color: #4c7f95;
 }
 
 a{
@@ -108,10 +112,28 @@ hr{
 #projects{
   text-align: center;
   margin-left: auto;
-  margin-top: 3.5%;
-  margin-bottom: 1.5%;
+  background: #19495d;
+  margin-top: -20vh;
+  padding-top: 30vh;
   }
 
+<<<<<<< HEAD
+h4{
+  color: white;
+  text-decoration: underline;
+  padding: 2%;
+}
+
+
+#contact{
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(to right, #19495d, #19495dab, #f0f0f0, #19495dab, #19495d);
+  border-image-slice: 1;
+  text-align: center;
+  margin-left: auto;
+  background: linear-gradient(to right, #19495d00, #e7e9e9e6, #f0f0f0, #e7e9e9e6, #19495d00);
+=======
 #contact{
   border-top: 5px solid transparent;
   border-image: linear-gradient(to right, #4f697600, #1f4e6287, #f0f0f0, #1f4e627a, #375f7000);
@@ -120,6 +142,7 @@ hr{
   margin-left: auto;
   background-color: #f0f0f0;
 
+>>>>>>> f0d1b025ca3a39a9f71b15518621a0970b710547
 }
 
 .contact-content{
@@ -127,6 +150,17 @@ hr{
   margin-bottom: 3.5%;
 }
 
+<<<<<<< HEAD
+.footer{
+  background: #19495d;;
+}
+
+.social{
+  color:#f0f0f0;
+}
+
+=======
+>>>>>>> f0d1b025ca3a39a9f71b15518621a0970b710547
 @media only screen and (max-width: 991px) {
 
     .display-4{
@@ -163,4 +197,11 @@ hr{
       .about-text{
         font-size: .70rem;
       }
+<<<<<<< HEAD
+
+      #contact{
+        background: #f0f0f0;
+      }
+=======
+>>>>>>> f0d1b025ca3a39a9f71b15518621a0970b710547
     }
