@@ -11,14 +11,13 @@ body{
   -o-background-size: cover;
   background-position: center;
   position: relative;
-  z-index: 10;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  z-index: 10;
 }
 
 .navbar{
   background: #f0f0f0;
   color: #45454c;
-  padding-top: 0;
 }
 
 .navbar-brand{
@@ -27,16 +26,17 @@ body{
 
 .name{
   color: #4c7f95;
+  text-decoration: none;
 }
 
-a{
+.nav-link{
   font-size: 1.25em;
   font-weight:500;
   color: #45454c;
   margin-left: 60px;
 }
 
-a:hover{
+.nav-link:hover{
   color: #2a1d24;
   text-shadow: 1px 1px 5px #329da7;
   border-bottom: 4px dotted #36667d;
@@ -55,6 +55,7 @@ a:hover{
   text-align: center;
   margin-left: auto;
   padding-top: 20%;
+
 }
 
 .landing-container{
@@ -67,7 +68,6 @@ a:hover{
   color: #f0f0f0;
   font-weight: 500;
   font-size: 4em;
-  text-shadow: 1px 1px 6px #00070d;
 }
 
 .lead{
@@ -91,7 +91,7 @@ hr{
 }
 
 #about{
-  height: 90vh;
+  height: 70vh;
   background: #f0f0f0;
   margin-top: -20vh;
   position: relative;
@@ -114,35 +114,25 @@ hr{
   margin-left: auto;
   background: #19495d;
   margin-top: -20vh;
-  padding-top: 30vh;
+  padding-top: 20vh;
   }
 
-<<<<<<< HEAD
 h4{
-  color: white;
+  color: #f0f0f0;
   text-decoration: underline;
-  padding: 2%;
+  padding: .25em;
 }
 
 
 #contact{
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
-  border-image: linear-gradient(to right, #19495d, #19495dab, #f0f0f0, #19495dab, #19495d);
+  border-image: linear-gradient(to right, #19495d00, #19495dab, #19495d, #19495dab, #19495d00);
   border-image-slice: 1;
   text-align: center;
   margin-left: auto;
-  background: linear-gradient(to right, #19495d00, #e7e9e9e6, #f0f0f0, #e7e9e9e6, #19495d00);
-=======
-#contact{
-  border-top: 5px solid transparent;
-  border-image: linear-gradient(to right, #4f697600, #1f4e6287, #f0f0f0, #1f4e627a, #375f7000);
-  border-image-slice: 1;
-  text-align: center;
-  margin-left: auto;
-  background-color: #f0f0f0;
-
->>>>>>> f0d1b025ca3a39a9f71b15518621a0970b710547
+  background: linear-gradient(to right, #19495d00, #19495dad, #19495d, #19495dad, #19495d00);
+  color: #f0f0f0;
 }
 
 .contact-content{
@@ -150,17 +140,15 @@ h4{
   margin-bottom: 3.5%;
 }
 
-<<<<<<< HEAD
 .footer{
   background: #19495d;;
 }
 
 .social{
   color:#f0f0f0;
+  padding: 0 .7em;
 }
 
-=======
->>>>>>> f0d1b025ca3a39a9f71b15518621a0970b710547
 @media only screen and (max-width: 991px) {
 
     .display-4{
@@ -182,8 +170,13 @@ h4{
 
   @media only screen and (max-width: 581px) {
 
+
+      .landing{
+        height: 65vh;
+      }
+
       .display-4{
-          font-size: 1.5rem;
+          font-size: 1rem;
       }
 
       .lead{
@@ -194,14 +187,18 @@ h4{
         font-size: .90rem;
       }
 
+      #about{
+        height: 65vh;
+      }
+
       .about-text{
         font-size: .70rem;
       }
-<<<<<<< HEAD
 
-      #contact{
-        background: #f0f0f0;
+      #projects{
+        padding-top: 25vh;
       }
-=======
->>>>>>> f0d1b025ca3a39a9f71b15518621a0970b710547
+
+      .fab{
+      }
     }
