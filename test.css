@@ -1,6 +1,5 @@
-
 body{
-  background-color: #f0f0f0;
+  background-color: #19495d;
   background: url(img/landing.jpg) center center fixed;
 }
 
@@ -12,28 +11,32 @@ body{
   -o-background-size: cover;
   background-position: center;
   position: relative;
-  z-index: 10;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  z-index: 10;
 }
 
 .navbar{
   background: #f0f0f0;
   color: #45454c;
-  padding-top: 0;
 }
 
 .navbar-brand{
   padding-bottom: 0;
 }
 
-a{
+.name{
+  color: #4c7f95;
+  text-decoration: none;
+}
+
+.nav-link{
   font-size: 1.25em;
   font-weight:500;
   color: #45454c;
   margin-left: 60px;
 }
 
-a:hover{
+.nav-link:hover{
   color: #2a1d24;
   text-shadow: 1px 1px 5px #329da7;
   border-bottom: 4px dotted #36667d;
@@ -52,6 +55,7 @@ a:hover{
   text-align: center;
   margin-left: auto;
   padding-top: 20%;
+
 }
 
 .landing-container{
@@ -64,7 +68,6 @@ a:hover{
   color: #f0f0f0;
   font-weight: 500;
   font-size: 4em;
-  text-shadow: 1px 1px 6px #00070d;
 }
 
 .lead{
@@ -74,35 +77,6 @@ a:hover{
   text-shadow: 1px 1px 5px #051824;
 }
 
-@media only screen and (max-width: 991px) {
-
-    .display-4{
-        font-size: 2.5em;
-    }
-
-    .lead{
-      font-size: 1em;
-    }
-
-    .contact-link a{
-      font-size: 1em;
-    }
-  }
-
-  @media only screen and (max-width: 581px) {
-
-      .display-4{
-          font-size: 1.5em;
-      }
-
-      .lead{
-        font-size: .90em;
-      }
-
-      .contact-link a{
-        font-size: .90em;
-      }
-    }
 
 hr{
   width: 75%;
@@ -113,13 +87,12 @@ hr{
 }
 
 #about-content{
-  text-align: center;
   margin-left: auto;
   margin-bottom: 3.5%;
 }
 
 #about{
-  height: 90vh;
+  height: 70vh;
   background: #f0f0f0;
   margin-top: -20vh;
   position: relative;
@@ -127,26 +100,106 @@ hr{
   padding-top: 20vh;
 }
 
+.about-head{
+  color: #4c7f95;
+}
+
+.about-text{
+  color: #033148;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 #projects{
   text-align: center;
   margin-left: auto;
-  margin-top: 3.5%;
-  margin-bottom: 1.5%;
+  background: #19495d;
+  margin-top: -20vh;
+  padding-top: 20vh;
   }
 
-.card{
-  margin-bottom: 1%;
-  border: none;
-  }
+h4{
+  color: #f0f0f0;
+  text-decoration: underline;
+  padding: .25em;
+}
+
 
 #contact{
-  border-top: 5px solid red;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(to right, #19495d00, #19495dab, #19495d, #19495dab, #19495d00);
+  border-image-slice: 1;
   text-align: center;
   margin-left: auto;
-
+  background: linear-gradient(to right, #19495d00, #19495dad, #19495d, #19495dad, #19495d00);
+  color: #f0f0f0;
 }
 
 .contact-content{
   margin-top: 3.5%;
   margin-bottom: 3.5%;
 }
+
+.footer{
+  background: #19495d;;
+}
+
+.social{
+  color:#f0f0f0;
+  padding: 0 .7em;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .display-4{
+        font-size: 2.5rem;
+    }
+
+    .lead{
+      font-size: 1rem;
+    }
+
+    .contact-link a{
+      font-size: 1rem;
+    }
+
+    .about-text{
+      font-size: .80rem;
+    }
+  }
+
+  @media only screen and (max-width: 581px) {
+
+
+      .landing{
+        height: 65vh;
+      }
+
+      .display-4{
+          font-size: 1rem;
+      }
+
+      .lead{
+        font-size: .90rem;
+      }
+
+      .contact-link a{
+        font-size: .90rem;
+      }
+
+      #about{
+        height: 65vh;
+      }
+
+      .about-text{
+        font-size: .70rem;
+      }
+
+      #projects{
+        padding-top: 25vh;
+      }
+
+      .fab{
+      }
+    }
