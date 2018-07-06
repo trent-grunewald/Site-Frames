@@ -40,7 +40,7 @@ function reset(){
   p1.classList.remove("winner");
   p2.classList.remove("winner");
   gameOver = false;
-};
+}
 
 resetBtn.addEventListener("click",function(){
   reset();
