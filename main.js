@@ -257,3 +257,13 @@
 // a.textContent = "Trent Grunewald";
 
 // ----------------------------BUTTON CLICK CHANGE----------------------------------
+
+var button = document.getElementById("button");
+var para = document.getElementById("pp");
+
+button.addEventListener("click",function() {
+//text change
+  para.textContent = "I have finally been clicked!";
+//style color
+  this.style.color = "red";
+});
