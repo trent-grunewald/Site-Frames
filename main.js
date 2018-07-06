@@ -265,5 +265,21 @@ button.addEventListener("click",function() {
 //text change
   para.textContent = "I have finally been clicked!";
 //style color
-  this.style.color = "red";
+  this.style.backgroundColor= "green";
 });
+
+ // ------------------- OR----------------------
+var h1 = document.querySelector("h1");
+
+h1.addEventListener("click",function(){
+  this.style.color = "blue";
+})
+
+------------------------------SPECIFIC LIST ITEM / ITEM------------------------------
+
+var lis = document.querySelectorAll("li");
+for (var i = 0; i < lis.length; i++) {
+  lis[i].addEventListener("click",function(){
+    this.style.color = "purple";
+  });
+}
