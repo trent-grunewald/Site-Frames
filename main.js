@@ -257,29 +257,43 @@
 // a.textContent = "Trent Grunewald";
 
 // ----------------------------BUTTON CLICK CHANGE----------------------------------
+//
+// var button = document.getElementById("button");
+// var para = document.getElementById("pp");
+//
+// button.addEventListener("click",function() {
+// //text change
+//   para.textContent = "I have finally been clicked!";
+// //style color
+//   this.style.backgroundColor= "green";
+// });
+//
+//  // ------------------- OR----------------------
+// var h1 = document.querySelector("h1");
+//
+// h1.addEventListener("click",function(){
+//   this.style.color = "blue";
+// })
+//
+// ------------------------------SPECIFIC LIST ITEM / ITEM------------------------------
+//
+// var lis = document.querySelectorAll("li");
+// for (var i = 0; i < lis.length; i++) {
+//   lis[i].addEventListener("click",function(){
+//     this.style.color = "purple";
+//   });
+// }
+// --------------------------------Mouse Over / Off Of ----------------------------------
+var list = document.querySelectorAll("li");
 
-var button = document.getElementById("button");
-var para = document.getElementById("pp");
-
-button.addEventListener("click",function() {
-//text change
-  para.textContent = "I have finally been clicked!";
-//style color
-  this.style.backgroundColor= "green";
-});
-
- // ------------------- OR----------------------
-var h1 = document.querySelector("h1");
-
-h1.addEventListener("click",function(){
-  this.style.color = "blue";
-})
-
-------------------------------SPECIFIC LIST ITEM / ITEM------------------------------
-
-var lis = document.querySelectorAll("li");
-for (var i = 0; i < lis.length; i++) {
-  lis[i].addEventListener("click",function(){
-    this.style.color = "purple";
+for (var i = 0; i <= list.length; i++) {
+  list[i].addEventListener("mouseover",function(){
+    this.classList.add("over");
   });
+  list[i].addEventListener("mouseout",function(){
+    this.classList.remove("over");
+  });
+  list[i].addEventListener("click",function(){
+    this.classList.toggle("done");
+  })
 }
